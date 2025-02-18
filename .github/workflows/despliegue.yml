@@ -2,7 +2,7 @@ name: CI/CD Pipeline for EjemploDocker
 on:
 push:
 branches:
-- main
+- master
 jobs:
 test:
 runs-on: ubuntu-latest
